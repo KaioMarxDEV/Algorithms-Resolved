@@ -15,3 +15,6 @@ function twoSum(numbers: number[], target: number) {
     cur > target ? right-- : left ++
   }
 };
+
+// Runtime: 91 ms, faster than 75.35% of TypeScript online submissions for Two Sum II - Input Array Is Sorted.
+// Memory Usage: 43.1 MB, less than 97.07% of TypeScript online submissions for Two Sum II - Input Array Is Sorted.
