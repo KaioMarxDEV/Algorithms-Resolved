@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node --transpile-only teste.ts"
+    "start": "ts-node --transpile-only ./500-600/557-reverseStringIII.ts"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
