@@ -14,6 +14,7 @@ def merge_strings(word1, word2) -> str:
     merged.extend(word2[i:])
 
   return ''.join(merged)
+
 def main():
   print(merge_strings("abc", "def"))
   print(merge_strings("abc", "defgh"))
