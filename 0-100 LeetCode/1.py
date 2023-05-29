@@ -5,5 +5,5 @@ def twoSum(self, nums: list[int], target: int) -> list[int]:
         diff = target - nums[i]
         if diff in hashmap:
             return [hashmap[diff], i]
-        hashmap[diff] = i
+        hashmap[nums[i]] = i
         i += 1
