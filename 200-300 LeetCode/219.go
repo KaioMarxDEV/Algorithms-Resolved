@@ -1,3 +1,7 @@
+package alg
+
+import "math"
+
 func containsNearbyDuplicates(nums []int, k int) bool {
 	m := make(map[int]int, len(nums)/2)
 	for i, v := range nums {

@@ -1,3 +1,5 @@
+package alg
+
 func containsDuplicates(nums []int) bool {
 	m := make(map[int]int)
 
